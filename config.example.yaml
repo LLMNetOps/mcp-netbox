@@ -1,0 +1,14 @@
+# Example configuration for mcp-netbox.
+#
+# Copy this file to `config.yaml` and fill in your values, or point the server
+# at a config file with `--config /path/to/config.yaml`, or set the
+# NETBOX_CONFIG environment variable.
+#
+# Environment variables override the values below:
+#   NETBOX_URL, NETBOX_TOKEN, NETBOX_TIMEOUT, NETBOX_VERIFY_SSL
+
+netbox:
+  url: https://netbox.example.com
+  token: Token your-api-token-here
+  timeout: 30000        # milliseconds
+  verify_ssl: true

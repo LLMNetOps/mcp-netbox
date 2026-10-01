@@ -1,0 +1,22 @@
+# Real configuration (contains secrets) - never commit
+config.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# Runtime artifacts
+mcp-netbox.log
+mcp-netbox.pid
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
