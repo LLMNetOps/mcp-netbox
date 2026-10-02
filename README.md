@@ -68,10 +68,10 @@ The package is installable with **pipx** (recommended) or **pip**.
 
 ```bash
 # from a local clone of this repository
-pipx install .
+pipx install mcp-netbox
 
 # or straight from GitHub (replace <your-username>)
-pipx install "git+https://github.com/<your-username>/mcp-netbox.git"
+pipx install "git+https://github.com/LLMNetOps/mcp-netbox.git"
 
 # or with pip into a virtualenv
 pip install .
